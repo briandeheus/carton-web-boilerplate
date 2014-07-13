@@ -1,6 +1,6 @@
 {
 	"server": {
-		"port": 9999,
+		"port": 9011,
 		"secret": "this_is_not_a_good_secret"
 	},
 	"logger": {
