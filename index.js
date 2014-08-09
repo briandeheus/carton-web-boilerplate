@@ -1,7 +1,7 @@
 var carton = require('carton');
 
 //Load configuration file
-carton.cfg.load('./cfg/cfg.json');
+carton.cfg.load('./cfg/' + process.env.NODE_ENV + '.json');
 
 //Load modules
 carton.add(require('./modules/logger'));
